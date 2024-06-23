@@ -1,0 +1,9 @@
+$couleur1: #0199E1;
+
+@use "../../node_modules/bulma/sass" with (
+  $primary: $couleur1,
+  $family-primary: '"Montserrat"',
+  $family-secondary : '"Anton"',
+  
+);
+
