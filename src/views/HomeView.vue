@@ -1,9 +1,13 @@
 <script setup>
+import BoiteDomaine from '../components/BoiteDomaine.vue'
+import ProjetComponent from '../components/ProjetComponent.vue'
+
+// les informations pour les modules
+
 </script>
 
 <template>
-  
-  <div class="container is-mobile is-centered mt-6">
+  <div class="container is-mobile is-centered">
      <div class="is-primary has-text-primary is-family-secondary is-half is-size-2 is-size-2-mobile has-text-centered is-mobile">
         Infographe, Développeur Web et mobile
      </div>
@@ -28,9 +32,30 @@
       </div>
   </div>
 
-  <div class="columns ">
-    <div cla>
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <BoiteDomaine/>
+      </div>
+       <div class="column">
+        <BoiteDomaine />
+      </div>
+       <div class="column">
+        <BoiteDomaine />
+      </div>
+       <div class="column">
+        <BoiteDomaine />
+      </div>
+    </div>
 
+    <div class="is-primary has-text-primary is-size-3 has-text-centered">
+      Mes Travaux
+    </div>
+
+    <div class="columns">
+      <div class="column">
+        <ProjetComponent />
+      </div>
     </div>
   </div>
   
