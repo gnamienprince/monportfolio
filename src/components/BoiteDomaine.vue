@@ -1,29 +1,22 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  information: String
+})
+</script>
 
 <template>
-  <div class="has-text-centered pt-6 is-mobile">
+  <div class="has-text-centered pt-6">
     <figure>
       <img src="../assets/images/icon4.svg" />
     </figure>
-    <p class="is-primary has-text-primary is-size-3">
-        Infographie
-    </p>
-    <p class=" is-size-6">
-     Je suis plus dans la simplicité et dans le professionnalisme car en infographie, tout ce qui es simple est beau
-    </p>
-    <p class="has-text-primary is-size-5">
-        chose que j’aime concevoir
-    </p>
-    <p class="">
-        flyers, cartes de visite, affiche de tout genre, bagde, kakemono etc...
-    </p>
-     <p class="has-text-primary is-size-5">
-        outils de conception
-    </p>
-    <p class="">
-        Photoshop, Illustrator, In design, Première pro, Filmora, capcut, figma
-    </p>
+    <p class="is-primary has-text-primary title">{{ props.information.titre }}</p>
+    <p class="is-size-6">{{ props.information.description }}</p>
+    <p class="has-text-primary subtitle">{{ props.information.titre2 }}</p>
+    <p class="">{{ props.information.description2 }}</p>
+    <p class="has-text-primary is-size-5">  {{ props.information.titre3 }}</p>
+    <p class="">  {{ props.information.description }}</p>
   </div>
 </template>
 
-<style></style>
+<style>
+</style>
