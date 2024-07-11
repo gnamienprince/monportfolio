@@ -7,7 +7,7 @@
             <div class="has-text-white">
                 Suivez moi sur les reseaux sociaux
             </div>
-           
+            
         </div>
     </div>
 </template>

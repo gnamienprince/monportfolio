@@ -84,7 +84,7 @@ const information4 = {
     </div>
   </div>
 
-  <div class="container">
+  <div class="container p-4">
     <div class="block">
       <div class="columns is-desktop">
         <div class="column">
